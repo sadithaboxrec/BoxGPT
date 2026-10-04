@@ -234,3 +234,7 @@ def search_memory(thread_id: str, query: str):
 
     finally:
         db.close()
+
+
+# Initialize database tables when this module is imported
+init_db()
